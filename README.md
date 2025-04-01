@@ -57,11 +57,11 @@ DATABASEURL="mysql://username:password@127.0.0.1:3306/dbname"
 Сгенерируйте миграции и примените их к базе данных:
 
 ```bash
-
-```
-
 php bin/console make:migration
 php bin/console doctrine:migrations:migrate
+```
+
+
 
 ### 5. Заполнение базы данных (необязательно)
 
